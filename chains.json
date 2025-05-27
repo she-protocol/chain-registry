@@ -1,0 +1,377 @@
+{
+  "she-mainnet": {
+    "chainId": "she-mainnet",
+    "network_type": "mainnet",
+    "rpc": [
+      {
+        "provider": "Rhino",
+        "url": "https://rpc.she-apis.com"
+      },
+      {
+        "provider": "Polkachu",
+        "url": "https://she-rpc.polkachu.com"
+      },
+      {
+        "provider": "Lavender.Five Nodes",
+        "url": "https://she-rpc.lavenderfive.com"
+      },
+      {
+        "provider": "Brochain",
+        "url": "https://she-rpc.brocha.in"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://rpc-she.stingray.plus"
+      },
+      {
+        "provider": "kjnodes",
+        "url": "https://she.rpc.kjnodes.com"
+      },
+      {
+        "provider": "Allnodes",
+        "url": "https://she-rpc.publicnode.com:443"
+      },
+      {
+        "provider": "1RPC",
+        "url": "https://1rpc.io/she-rpc"
+      }
+    ],
+    "rest": [
+      {
+        "provider": "Rhino",
+        "url": "https://rest.she-apis.com"
+      },
+      {
+        "provider": "Lavender.Five Nodes",
+        "url": "https://she-api.lavenderfive.com"
+      },
+      {
+        "provider": "Polkachu",
+        "url": "https://she-api.polkachu.com"
+      },
+      {
+        "provider": "Brochain",
+        "url": "https://she-rest.brocha.in"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://api-she.stingray.plus"
+      },
+      {
+        "provider": "kjnodes",
+        "url": "https://she.api.kjnodes.com"
+      },
+      {
+        "provider": "Allnodes",
+        "url": "https://she-rest.publicnode.com"
+      },
+      {
+        "provider": "1RPC",
+        "url": "https://1rpc.io/she-lcd"
+      }
+    ],
+    "grpc": [
+      {
+        "provider": "Rhino",
+        "url": "https://grpc.she-apis.com"
+      },
+      {
+        "provider": "Lavender.Five Nodes",
+        "url": "https://she-grpc.lavenderfive.com"
+      },
+        {
+        "provider": "Stingray",
+        "url": "https://grpc-she.stingray.plus:443"
+      },
+      {
+        "provider": "Polkachu",
+        "url": "https://she-grpc.polkachu.com:11990"
+      },
+      {
+        "provider": "Allnodes",
+        "url": "https://she-grpc.publicnode.com:443"
+      }
+    ],
+    "evm_rpc": [
+      {
+        "provider": "Rhino",
+        "url": "https://evm-rpc.she-apis.com"
+      },
+      {
+        "provider": "Quiknode",
+        "url": "https://black-dark-breeze.she-pacific.quiknode.pro"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://evm-rpc-she.stingray.plus"
+      },
+      {
+        "provider": "dRPC",
+        "url": "https://she.drpc.org"
+      }
+    ],
+    "evm_ws": [
+      {
+        "provider": "Rhino",
+        "url": "wss://evm-ws.she-apis.com"
+      },
+      {
+        "provider": "Quiknode",
+        "url": "wss://black-dark-breeze.she-pacific.quiknode.pro"
+      },
+      {
+        "provider": "Stingray",
+        "url": "wss://evm-ws-she.stingray.plus"
+      },
+      {
+        "provider": "dRPC",
+        "url": "wss://she.drpc.org"
+      }
+    ],
+    "explorers": [
+      {
+        "name": "Seitrace",
+        "url": "https://seitrace.com/",
+        "tx_page": "https://seitrace.com/tx/${txHash}?chain=she-mainnet"
+      },
+      {
+        "name": "Seistream",
+        "url": "https://seistream.app/",
+        "tx_page": "https://seistream.app/${txHash}"
+      },
+      {
+        "name": "explorers-guru",
+        "url": "https://she.explorers.guru",
+        "tx_page": "https://she.explorers.guru/tx/${txHash}"
+      },
+      {
+        "name": "Seiscan",
+        "url": "https://www.seiscan.app/she-mainnet",
+        "tx_page": "https://www.seiscan.app/she-mainnet/txs/${txHash}"
+      },
+      {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/she",
+        "tx_page": "https://www.mintscan.io/she/tx/${txHash}"
+      }
+    ]
+  },
+  "she-testnet": {
+    "chainId": "she-testnet",
+    "network_type": "testnet",
+    "rpc": [
+      {
+        "provider": "Rhino",
+        "url": "https://rpc-testnet.she-apis.com"
+      },
+      {
+        "provider": "Polkachu",
+        "url": "https://she-testnet-rpc.polkachu.com"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://rpc-testnet-she.stingray.plus"
+      },
+      {
+        "provider": "She",
+        "url": "https://rpc.she-testnet.seinetwork.io"
+      }
+    ],
+    "rest": [
+      {
+        "provider": "Rhino",
+        "url": "https://rest-testnet.she-apis.com"
+      },
+      {
+        "provider": "Polkachu",
+        "url": "https://she-testnet-api.polkachu.com"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://api-testnet-she.stingray.plus"
+      },
+      {
+        "provider": "She",
+        "url": "https://rest.she-testnet.seinetwork.io"
+      }
+    ],
+    "grpc": [
+      {
+        "provider": "Rhino",
+        "url": "https://grpc-testnet.she-apis.com"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://grpc-testnet-she.stingray.plus:443"
+      },
+      {
+        "provider": "Polkachu",
+        "url": "http://she-testnet-grpc.polkachu.com:11990"
+      }
+    ],
+    "evm_rpc": [
+      {
+        "provider": "Rhino",
+        "url": "https://evm-rpc-testnet.she-apis.com"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://evm-rpc-testnet-she.stingray.plus"
+      },
+      {
+        "provider": "dRPC",
+        "url": "https://she-testnet.drpc.org"
+      }
+    ],
+    "evm_ws": [
+      {
+        "provider": "Rhino",
+        "url": "wss://evm-ws-testnet.she-apis.com"
+      },
+      {
+        "provider": "Stingray",
+        "url": "wss://evm-ws-testnet-she.stingray.plus"
+      },
+      {
+        "provider": "dRPC",
+        "url": "wss://she-testnet.drpc.org"
+      }
+    ],
+    "explorers": [
+      {
+        "name": "Seitrace",
+        "url": "https://seitrace.com/",
+        "tx_page": "https://seitrace.com/tx/${txHash}?chain=she-testnet"
+      },
+      {
+        "name": "explorers-guru",
+        "url": "https://testnet.she.explorers.guru",
+        "tx_page": "https://testnet.she.explorers.guru/tx/${txHash}"
+      },
+      {
+        "name": "Seistream",
+        "url": "https://testnet.seistream.app/",
+        "tx_page": "https://testnet.seistream.app/${txHash}"
+      },
+      {
+        "name": "Seiscan",
+        "url": "https://www.seiscan.app/she-testnet",
+        "tx_page": "https://www.seiscan.app/she-testnet/txs/${txHash}"
+      }
+    ],
+    "faucets": [
+      { 
+        "provider": "She App", 
+        "url": "https://she-testnet.app.she.io/faucet" 
+      },
+      { 
+        "provider": "FAUCETME", 
+        "url": "https://she.faucetme.pro/" 
+      }
+    ]
+  },
+  "she-devnet": {
+    "chainId": "she-devnet",
+    "network_type": "devnet",
+    "rpc": [
+      {
+        "provider": "Rhino",
+        "url": "https://rpc-she-devnet.she-apis.com"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://rpc-devnet-she.stingray.plus"
+      },
+      {
+        "provider": "She",
+        "url": "https://rpc.she-devnet.seinetwork.io/"
+      }
+    ],
+    "rest": [
+      {
+        "provider": "Rhino",
+        "url": "https://rest-she-devnet.she-apis.com"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://api-devnet-she.stingray.plus"
+      },
+      {
+        "provider": "She",
+        "url": "https://rest.she-devnet.seinetwork.io/"
+      }
+    ],
+    "grpc": [
+      {
+        "provider": "Rhino",
+        "url": "https://grpc-she-devnet.she-apis.com"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://grpc-devnet-she.stingray.plus:443"
+      }
+    ],
+    "evm_rpc": [
+      {
+        "provider": "Rhino",
+        "url": "https://evm-rpc-she-devnet.she-apis.com"
+      },
+      {
+        "provider": "She",
+        "url": "https://evm-rpc.she-devnet.seinetwork.io/"
+      },
+      {
+        "provider": "dRPC",
+        "url": "https://she-devnet.drpc.org"
+      },
+      {
+        "provider": "Stingray",
+        "url": "https://evm-rpc-devnet-she.stingray.plus"
+      }
+    ],
+    "evm_ws": [
+      {
+        "provider": "Rhino",
+        "url": "wss://evm-ws-she-devnet.she-apis.com"
+      },
+      {
+        "provider": "She",
+        "url": "wss://evm-ws.she-devnet.seinetwork.io"
+      },
+      {
+        "provider": "dRPC",
+        "url": "wss://she-devnet.drpc.org"
+      },
+      {
+        "provider": "Stingray",
+        "url": "wss://evm-ws-devnet-she.stingray.plus"
+      }
+    ],
+    "explorers": [
+       {
+        "name": "Seistream",
+        "url": "https://devnet.seistream.app/",
+        "tx_page": "https://devnet.seistream.app/${txHash}"
+      },
+      {
+        "name": "Seitrace",
+        "url": "https://seitrace.com/",
+        "tx_page": "https://seitrace.com/tx/${txHash}?chain=she-devnet"
+      }
+    ],
+    "faucets": [
+      { 
+        "provider": "She App", 
+        "url": "https://she-devnet.app.she.io/faucet/" 
+      },
+      { 
+        "provider": "NIMA", 
+        "url": "https://she-faucet.nima.enterprises/" 
+      },
+      { 
+        "provider": "FAUCETME", 
+        "url": "https://she-evm.faucetme.pro/" 
+      }
+    ]
+  }
+}

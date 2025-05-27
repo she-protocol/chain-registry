@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "she-mainnet": {
+      "$ref": "#/definitions/chain"
+    },
+    "she-testnet": {
+      "$ref": "#/definitions/chain"
+    },
+    "she-devnet": {
+      "$ref": "#/definitions/chain"
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "chain": {
+      "type": "object",
+      "properties": {
+        "denom": {
+          "type": "string"
+        },
+        "min_gas_price": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
