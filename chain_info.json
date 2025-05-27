@@ -2,10 +2,10 @@
   "chain_name": "She",
   "network_type": "mainnet",
   "chain_id": "she-mainnet",
-  "daemon_name": "seid",
+  "daemon_name": "shed",
   "bech32_prefix": "she",
   "key_algos": ["secp256k1"],
   "slip44": 118,
-  "fee_token": "usei",
+  "fee_token": "ushe",
   "supported_wallets": ["fin", "compass", "leap", "keplr"]
 }

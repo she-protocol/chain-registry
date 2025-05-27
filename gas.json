@@ -1,14 +1,14 @@
 {
   "she-mainnet": {
-    "denom": "usei",
+    "denom": "ushe",
     "min_gas_price": 0.02
   },
   "she-testnet": {
-    "denom": "usei",
+    "denom": "ushe",
     "min_gas_price": 0.08
   },
   "she-devnet": {
-    "denom": "usei",
+    "denom": "ushe",
     "min_gas_price": 0.02
   }
 }

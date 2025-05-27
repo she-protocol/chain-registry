@@ -130,14 +130,14 @@
     ],
     "explorers": [
       {
-        "name": "Seitrace",
-        "url": "https://seitrace.com/",
-        "tx_page": "https://seitrace.com/tx/${txHash}?chain=she-mainnet"
+        "name": "Shetrace",
+        "url": "https://shetrace.com/",
+        "tx_page": "https://shetrace.com/tx/${txHash}?chain=she-mainnet"
       },
       {
-        "name": "Seistream",
-        "url": "https://seistream.app/",
-        "tx_page": "https://seistream.app/${txHash}"
+        "name": "Shestream",
+        "url": "https://shestream.app/",
+        "tx_page": "https://shestream.app/${txHash}"
       },
       {
         "name": "explorers-guru",
@@ -145,9 +145,9 @@
         "tx_page": "https://she.explorers.guru/tx/${txHash}"
       },
       {
-        "name": "Seiscan",
-        "url": "https://www.seiscan.app/she-mainnet",
-        "tx_page": "https://www.seiscan.app/she-mainnet/txs/${txHash}"
+        "name": "Shescan",
+        "url": "https://www.shescan.app/she-mainnet",
+        "tx_page": "https://www.shescan.app/she-mainnet/txs/${txHash}"
       },
       {
         "name": "Mintscan",
@@ -174,7 +174,7 @@
       },
       {
         "provider": "She",
-        "url": "https://rpc.she-testnet.seinetwork.io"
+        "url": "https://rpc.she-testnet.shenetwork.io"
       }
     ],
     "rest": [
@@ -192,7 +192,7 @@
       },
       {
         "provider": "She",
-        "url": "https://rest.she-testnet.seinetwork.io"
+        "url": "https://rest.she-testnet.shenetwork.io"
       }
     ],
     "grpc": [
@@ -239,9 +239,9 @@
     ],
     "explorers": [
       {
-        "name": "Seitrace",
-        "url": "https://seitrace.com/",
-        "tx_page": "https://seitrace.com/tx/${txHash}?chain=she-testnet"
+        "name": "Shetrace",
+        "url": "https://shetrace.com/",
+        "tx_page": "https://shetrace.com/tx/${txHash}?chain=she-testnet"
       },
       {
         "name": "explorers-guru",
@@ -249,14 +249,14 @@
         "tx_page": "https://testnet.she.explorers.guru/tx/${txHash}"
       },
       {
-        "name": "Seistream",
-        "url": "https://testnet.seistream.app/",
-        "tx_page": "https://testnet.seistream.app/${txHash}"
+        "name": "Shestream",
+        "url": "https://testnet.shestream.app/",
+        "tx_page": "https://testnet.shestream.app/${txHash}"
       },
       {
-        "name": "Seiscan",
-        "url": "https://www.seiscan.app/she-testnet",
-        "tx_page": "https://www.seiscan.app/she-testnet/txs/${txHash}"
+        "name": "Shescan",
+        "url": "https://www.shescan.app/she-testnet",
+        "tx_page": "https://www.shescan.app/she-testnet/txs/${txHash}"
       }
     ],
     "faucets": [
@@ -284,7 +284,7 @@
       },
       {
         "provider": "She",
-        "url": "https://rpc.she-devnet.seinetwork.io/"
+        "url": "https://rpc.she-devnet.shenetwork.io/"
       }
     ],
     "rest": [
@@ -298,7 +298,7 @@
       },
       {
         "provider": "She",
-        "url": "https://rest.she-devnet.seinetwork.io/"
+        "url": "https://rest.she-devnet.shenetwork.io/"
       }
     ],
     "grpc": [
@@ -318,7 +318,7 @@
       },
       {
         "provider": "She",
-        "url": "https://evm-rpc.she-devnet.seinetwork.io/"
+        "url": "https://evm-rpc.she-devnet.shenetwork.io/"
       },
       {
         "provider": "dRPC",
@@ -336,7 +336,7 @@
       },
       {
         "provider": "She",
-        "url": "wss://evm-ws.she-devnet.seinetwork.io"
+        "url": "wss://evm-ws.she-devnet.shenetwork.io"
       },
       {
         "provider": "dRPC",
@@ -349,14 +349,14 @@
     ],
     "explorers": [
        {
-        "name": "Seistream",
-        "url": "https://devnet.seistream.app/",
-        "tx_page": "https://devnet.seistream.app/${txHash}"
+        "name": "Shestream",
+        "url": "https://devnet.shestream.app/",
+        "tx_page": "https://devnet.shestream.app/${txHash}"
       },
       {
-        "name": "Seitrace",
-        "url": "https://seitrace.com/",
-        "tx_page": "https://seitrace.com/tx/${txHash}?chain=she-devnet"
+        "name": "Shetrace",
+        "url": "https://shetrace.com/",
+        "tx_page": "https://shetrace.com/tx/${txHash}?chain=she-devnet"
       }
     ],
     "faucets": [
